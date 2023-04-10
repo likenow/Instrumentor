@@ -14,7 +14,7 @@
 
 ```c++
 
-  Instrumentor::Get().BeginSession("Profile", filepath);
+  	Instrumentor::Get().BeginSession("Profile", filepath);
 	// your code
 	Instrumentor::Get().EndSession();
 
